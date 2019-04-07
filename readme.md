@@ -8,6 +8,5 @@
 - Now navigate to 'server-tasks' folder and type `npm install` to install the dependencies and type 
   `npm start` after installation finishes. This will start the tasks server on `port 3001`.
 
-- For Clinet side of the application go inside 'client' folder and type `npm install` to install the 
-  dependencies and when installation finishes type `npm start`. This will start the client side of 
-  the application on `port 4200`.
+- For Client side of the application go inside 'client' folder and type `npm install` to install all 
+  dependencies and `npm start` will start the client side of the application on `port 4200`.
