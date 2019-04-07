@@ -1,0 +1,7 @@
+<div class="list-group">
+  <div class="list-group-item" *ngFor="let status of StatusList"
+    (click)="statusSelected(status.Name)">{{status.Name}}
+  </div>
+</div>
+<p-progressSpinner *ngIf="blockUI"></p-progressSpinner>
+<p-blockUI [blocked]="blockUI"></p-blockUI>

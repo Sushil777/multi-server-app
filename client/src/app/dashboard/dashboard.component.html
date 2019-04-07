@@ -1,0 +1,13 @@
+<div class="col-sm-12 text-center mt-4">
+  <h3>Multi Server App</h3>
+</div>
+<div class="col-sm-12 d-flex mt-5">
+  <div class="col-sm-3 offset-sm-1">
+    <app-status></app-status>
+  </div>
+  <div class="col-sm-7">
+    <template #tasksList></template>
+  </div>
+</div>
+<p-progressSpinner *ngIf="blockUI"></p-progressSpinner>
+<p-blockUI [blocked]="blockUI"></p-blockUI>
